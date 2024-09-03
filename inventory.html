@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELITECARS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">   
+</head>
+<body>
+    <header>
+        <!-- navigation code starts here -->
+        <nav class="nav-container">
+            <div class="responsive_bar">
+            <div class="logo"></div>
+            <i class="fas fa-bars" id="bars" onclick="shownavbar()"></i>
+            <i class="fa fa-times" id="close" onclick="hidenavbar()"></i>
+            </div>
+            <ul class="nav-links-container">
+                <li class="nav-links"><a class="nav-link-item" href="index.html">Home</a></li>
+                <li class="nav-links"><a class="nav-link-item" href="services.html">Services</a></li>
+                <li class="nav-links"><a class="nav-link-item" href="#">Inventory</a></li>
+                <li class="nav-links"><a class="nav-link-item" href="about.html">About</a></li>
+                <li class="nav-links"><a class="nav-link-item" href="contact.html">Contact</a></li>
+                <li class="learn_btn"><a class="nav-link-item" href="signup_frm.html">Sign Up</a></li>
+                <li class="learn_btn"><a class="nav-link-item" href="login_frm.html">Login</a></li>
+            </ul>
+        </nav>
+        <!-- navigation code ends here -->
+    </header>
+
+    <section class="inventory_section">
+        <h1>Available Cars</h1>
+        
+        <div class="featured-cars-container">
+            <div class="featured">
+                <img src="https://imgd.aeplcdn.com/642x361/n/cw/ec/152805/bmw-x5-facelift-right-front-three-quarter4.jpeg?isig=0&wm=1&q=80" alt="Car 1">
+                <h3>2023 BMW X5</h3>
+                <p>Luxury SUV with advanced features and exceptional performance. A perfect blend of style and comfort.</p>
+                <a href="#" class="btn-primary">View Details</a>
+            </div>
+            <div class="featured">
+                <img src="https://blog.zimbrickaudiofmadison.com/wp-content/uploads/2022/11/2023-audi-a4.jpg" alt="Car 2">
+                <h3>2023 Audi A4</h3>
+                <p>Sporty sedan with a refined design and cutting-edge technology. Enjoy an exhilarating driving experience.</p>
+                <a href="#" class="btn-primary">View Details</a>
+            </div>
+            <div class="featured">
+                <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230203030814__DSC0699.jpg&w=700&c=1" alt="Car 3">
+                <h3>2021 Hyundai Verna</h3>
+            <p>Elegant sedan with a sleek design and advanced technology. Experience a smooth and enjoyable ride.</p>
+                <a href="#" class="btn-primary">View Details</a>
+            </div>
+        </div>
+        <div class="featured-cars-container">
+            <div class="featured">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB_lVCagEQ7aPxV6ZsQp29y6qXqrS37si77VROQz5KF0eygaolBrPWp-T9pbr2BQLT0D0&usqp=CAU" alt="Car 4">
+                <h3>2022 Toyota Fortuner</h3>
+                <p>A powerful SUV designed for adventure. The Toyota Fortuner provides superior off-road capability and a spacious, luxurious cabin.</p>
+                <a href="#" class="btn-primary">View Details</a>
+            </div>
+            <div class="featured">
+                <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcdni.autocarindia.com%2FReviews%2F20210303103649_Maruti-Suzuki-Swift-2021-rear-static.jpg&c=0" alt="Car 5">
+                <h3>2021 Maruti Suzuki Swift</h3>
+                <p>A compact hatchback with sporty looks and agile handling. Ideal for city driving with excellent fuel efficiency and modern amenities.</p>
+                <a href="#" class="btn-primary">View Details</a>
+            </div>
+            <div class="featured">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvY5Gomvx0ejP3DaajT9CDfQ37770QLfohsVSf6xuXjZWBY3KeMUGJNNRIcekyqwkmxEE&usqp=CAU" alt="Car 6">
+                <h3>2020 Honda City</h3>
+                <p>A premium sedan known for its refined design and smooth ride. The Honda City offers top-notch comfort and cutting-edge technology.</p>
+                <a href="#" class="btn-primary">View Details</a>
+            </div>
+        </div>
+        <div class="featured-cars-container">
+            <div class="featured">
+                <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20210501101722_2021_Kia_Seltos_1.jpg&w=700&c=1" alt="Car 7">
+                <h3>2021 Kia Seltos</h3>
+                <p>A versatile compact SUV with bold styling and advanced safety features. The Kia Seltos is designed for urban adventures and weekend getaways.</p>
+                <a href="#" class="btn-primary">View Details</a>
+            </div>
+            <div class="featured">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd8Sj9pXn11R-7GJ-nPv0eIQvB8S4laSzEPs4stTdAceIT2TdB8AAx9I4HMeTrq6R03Z8&usqp=CAU" alt="Car 8">
+                <h3>2022 Jeep Compass</h3>
+                <p> A compact SUV with rugged capabilities and modern design. The Jeep Compass is perfect for those who seek both adventure and comfort.</p>
+                <a href="#" class="btn-primary">View Details</a>
+            </div>
+            <div class="featured">
+                <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Audi/Q7/10558/1689594791308/front-left-side-47.jpg" alt="Car 9">
+                <h3>2023 Audi Q7</h3>
+                <p>Sporty sedan with a refined design and cutting-edge technology. Enjoy an exhilarating driving experience.</p>
+                <a href="#" class="btn-primary">View Details</a>
+            </div>
+        </div>
+        <div class="featured-cars-container">
+        <div class="featured">
+            <img src="https://www.financialexpress.com/wp-content/uploads/2023/12/Mercedes-Benz-GLS.jpg" alt="Car 12">
+            <h3>2023 Mercedes-Benz GLS</h3>
+            <p>A premium SUV with advanced features and luxury interiors. Experience the ultimate in comfort and style.</p>
+            <a href="#" class="btn-primary">View Details</a>
+        </div>
+        <div class="featured">
+            <img src="https://www.dsf.my/wp-content/uploads/2022/06/toyota-fortuner-2023.jpeg" alt="Car 13">
+            <h3>2023 Toyota Fortuner</h3>
+            <p>A powerful and reliable SUV designed for off-road adventures. The Toyota Fortuner combines toughness with comfort.</p>
+            <a href="#" class="btn-primary">View Details</a>
+        </div>
+        <div class="featured">
+            <img src="data:image/jpeg;base64,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" alt="Car 14">
+            <h3>2023 Volkswagen Tiguan</h3>
+            <p>An elegant and versatile SUV that blends style, comfort, and performance. Ideal for city driving and long journeys.</p>
+            <a href="#" class="btn-primary">View Details</a>
+        </div>
+    </div>
+    </section>
+     <!-- Footer Section -->
+     <footer>
+        <div class="footer">
+        <div class="f-1">
+            <ul class="footer-nav-links-container">
+                <h4>Quick Links</h4>
+                <li class="footer-nav-links"><a class="footer-nav-link-item" href="#">Home</a></li>
+                <li class="footer-nav-links"><a class="footer-nav-link-item" href="services.html">Services</a></li>
+                <li class="footer-nav-links"><a class="footer-nav-link-item" href="inventory.html">Inventory</a></li>
+                <li class="footer-nav-links"><a class="footer-nav-link-item" href="about.html">About</a></li>
+                <li class="footer-nav-links"><a class="footer-nav-link-item" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="f-2">
+            <h4>Contact Us</h4>
+        <p>If you have any questions or need assistance, feel free to reach out to us:</p>
+        <p><i class="fas fa-phone"></i> Phone: +7895353000</p>
+        <p><i class="fas fa-envelope"></i> Email: info@elitecars.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Near Bsnl towar Miyawala Dehradun uk</p>
+        </div>
+        <div class="f-4">
+            <h4>EliteCars</h4>
+            <img src="footer_logo.png" alt="footer_logo" width="100" height="100">
+            <p>Your Trusted Partner in<br> Automotive Excellence</p>
+        </div>
+        <div class="f-3">
+            
+            <h4>Follow Us</h4>
+            <ul class="socials">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    
+         <hr>
+        <p id="footer_text">&copy; 2024 EliteCars. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
